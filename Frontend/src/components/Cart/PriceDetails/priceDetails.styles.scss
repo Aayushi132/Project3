@@ -1,0 +1,58 @@
+.price-details{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+
+}
+.delivery-address-wrapper {
+  margin-top: 30px;
+  border: 1px solid;
+  padding: 20px;
+  .delivery-address{
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.product-price{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.column {
+	p {
+    font-weight: 500;
+  }
+  }
+  .row{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+}
+hr {
+    display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  }
+  .checkout{
+    width: 100%;
+    margin-top: 40px;
+  }
+  .button-checkout {
+    background-color: transparent; /* Green */
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:100%;
+  }
+  

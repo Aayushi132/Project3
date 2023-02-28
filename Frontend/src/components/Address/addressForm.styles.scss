@@ -1,0 +1,86 @@
+.address-wrapper{
+    display:flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 100px;
+}
+.address-wrapper h2{
+    color:gray;
+}
+.saved-address{
+
+}
+.address-card{
+    width:100%;
+    border-radius: 2px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    background-color: #f4f9f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.delivery-form{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.use-button-box{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.use-button{
+    border-radius: 2px;
+    background-color: #f4f9f7;
+    border:1px solid;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: teal;
+        color: white
+    }
+}
+.address-content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 500;
+   
+}
+.address-first-name input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.address-first-name{
+    display:flex;
+    flex-direction: row;
+}
+.address-line input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.address-buttons{
+    justify-content: center;
+}
+.address-buttons button{
+   
+    justify-content: center;
+}

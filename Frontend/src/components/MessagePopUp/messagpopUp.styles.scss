@@ -1,0 +1,41 @@
+    // for success check 
+    /* Popup container */
+    .popup-container {
+        display: block; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0, 0, 0, 0.4); /* Black background with opacity */
+      }
+  
+      /* Popup content */
+      .popup-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 30%; /* Could be more or less, depending on screen size */
+        text-align: center;
+      }
+  
+      /* Success icon */
+      .success-icon {
+        font-size: 48px;
+        color: green;
+      }
+  
+      /* Success message */
+      .success-message {
+        color: black;
+        font-size: 24px;
+        margin-top: 20px;
+      }
+  
+      /* Show the popup */
+      .popup-container.show {
+        display: block;
+      }

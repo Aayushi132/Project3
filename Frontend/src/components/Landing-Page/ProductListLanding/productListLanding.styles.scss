@@ -1,0 +1,154 @@
+.product-list{
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+.filter-card{
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: 0fr 2fr;
+    grid-template-rows: 0fr;
+    grid-column-gap: 2px;
+    
+    grid-row-gap: 0px;
+    align-items: center;
+    background-color: teal;
+
+}
+.product-image{
+    height: 200px;
+    width: 200px;
+    margin-left:25px;
+}
+
+.product-image img{
+    width:200px;
+    height:200px;
+}
+.rating{
+    margin-top:2px;
+}
+.product-content{
+    display:flex;
+    flex-direction: column;
+    margin-left: 28px;
+}
+
+.product-image{
+    margin-left: 28px;
+}
+
+.product-cost{
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 0px;
+    
+}
+.cost{
+    display: grid;
+    justify-items: end;
+    margin-right: 46px;
+}
+.cost-value p{
+    display: inline;
+}
+
+.product-count {
+    
+    margin-top: 12px;
+    margin-bottom: 26px;
+    height: 30px;
+    margin-right: -17px ;
+
+  }
+  
+  .product-count a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .button-count {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /* background-color: #2196F3; */
+    /* color: white; */
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    /* border: none; */
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 8px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .button-count:active {
+    background-color: #1565C0;
+  }
+  
+  .number-product {
+    display: inline-block;
+    width: 46px;
+    height: 28px;
+    font-size: 25px;
+    border: 1px solid silver;
+    text-align: center;
+  }
+  
+  .filter-category-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  .filter-category-selector .category {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    cursor: pointer;
+  }
+
+  .filter-category-selector .category:first-child{
+    border-radius: 10px 0 0 10px;
+    border-left: none;
+  }
+  .filter-category-selector .category:last-child{
+    border-radius: 0 10px 10px 0;
+    border-right: none;
+  }
+
+.filter-category-selector .category.selected{
+    background-color: teal;
+    color: #fff;
+}
+.filter-card-wrapper{
+  height: 50vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+  
+  
